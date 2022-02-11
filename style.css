@@ -1,0 +1,45 @@
+:root {
+  --ivory: #f6f7eb;
+  --cinnabar: #e94f37;
+  --onyx: #393e41;
+  --green_blue_crayola: #3f88c5;
+  --kappel: #44bba4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--onyx);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.currentTime {
+  width: 12rem;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+span {
+  display: block;
+
+  color: var(--green_blue_crayola);
+  font-size: 10rem;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
