@@ -13,11 +13,16 @@
 
 body {
   background-color: var(--onyx);
+
+  box-sizing: border-box;
+
 }
 
 .container {
   width: 100vw;
   height: 100vh;
+
+  box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
@@ -26,8 +31,9 @@ body {
 }
 
 .currentTime {
-  width: 12rem;
-  height: auto;
+  width: 12em;
+
+  border: 1px solid black;
 
   display: flex;
   flex-direction: column;
@@ -35,10 +41,12 @@ body {
 }
 
 span {
+  /* box-sizing: border-box; */
+
   display: block;
 
   color: var(--green_blue_crayola);
-  font-size: 10rem;
+  font-size: 10em;
   font-family: sans-serif;
   font-style: italic;
   font-weight: bold;
